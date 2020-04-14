@@ -1,4 +1,4 @@
-profile?=1.0
+profile?=cdh5
 
 all: build release
 
