@@ -59,8 +59,8 @@
                                   [javax.xml.bind/jaxb-api org.slf4j/slf4j-api org.slf4j/slf4j-log4j12]]
                                  [org.slf4j/slf4j-api "1.7.12"]
                                  [org.slf4j/slf4j-log4j12 "1.7.12"]]}
-   :1.0-test {:dependencies [[org.apache.hbase/hbase-testing-util "1.0.0"]]}
-   :1.0 ^:leaky {:bin {:name ~(bin :cdh5)}
+   :cdh5-test {:dependencies [[org.apache.hbase/hbase-testing-util "1.0.0"]]}
+   :cdh5 ^:leaky {:bin {:name ~(bin :cdh5)}
                  :jar-name ~(jar :cdh5)
                  :uberjar-name ~(jar :cdh5 "-standalone")
                  :target-path  "target/cdh5"
