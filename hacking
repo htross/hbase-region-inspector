@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-profile=${1:-1.0}
+profile=${1:-cdh5}
 target="{bottom-right}"
 
 if [ -z "$TMUX" ]; then
